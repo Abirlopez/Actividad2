@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+<link rel="stylesheet" href="..\ejercicio_02\contacto.css">
+
+</head>
+<body>
+     <header>
+        <nav>
+            <a href="index.html">HOME</a> |
+            <a href="..\ejercicio_02\contacto.html">CONTACTO</a>
+        </nav>
+    </header>
+    <section>
+
+        <div>
+          <form action="./index.html" method="post">
+            <label for="name">Nombre:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nombre"
+              required/>
+            <label for="email">Correo electrónico:</label>
+            <input
+              type="email"
+              id="email"
+              name="user_email"
+              placeholder="Correo electrónico"
+              required/>
+            <label for="telefono">Telefono:</label>
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Telefono"
+              required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje"
+             id="mensaje" 
+             rows="4" 
+             cols="30"
+              placeholder="Escriba un mensaje"></textarea>
+            <div class="botones">
+            <button type="submit" class="btn-enviar">Enviar</button>
+            <button type="reset" class="btn-cancelar">Cancelar</button>
+            </div>
+            
+          
+          </form>
+        </div>
+      </section>
+       <footer>
+        <h2>Todos los derechos reservados</h2>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 6em;     
+    padding-bottom: 6em;  
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 80%;
+    background-color: grey;
+    border: 0.18em solid black;
+    text-align: center;
+    padding: 1.25em;
+    font-size: 1.56em;
+    font-weight: bold;
+}
+
+
+.caja{
+    width: 70%;
+    margin: 2.5em auto;
+    border: 0.18em solid black;
+    border-radius: 5em;
+    padding: 1.87em;
+}
+
+h2{
+    text-align:center;
+}
+
+img{
+    display:block;
+    margin:auto;
+    width:60%;
+    border:0.12em solid black;
+}
+
+.pasos{
+    margin-top:1.87em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+
+    border: 0.2rem solid black;
+    background-color: grey;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1000;
+}

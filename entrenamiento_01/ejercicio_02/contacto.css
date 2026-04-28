@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    padding-top: 7em;     
+    padding-bottom: 7em;  
+}
+
+
+section{
+    width: 80%;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    width: 80%;
+    background-color: grey;
+    border: 0.18em solid black;
+    text-align: center;
+    padding: 1.25em;
+    font-size: 1.56em;
+    font-weight: bold;
+}
+
+
+form{
+    border: 0.12em solid black;
+    padding: 1.5em;
+    background-color: #dcdcdc;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+label{
+    font-size: 1.5em;
+}
+
+input,
+textarea{
+    border: 0.12em solid black;
+    font-size: 1em;
+    padding: 0.3em;
+}
+
+input{
+    width: 14em;
+    height: 2em;
+}
+
+textarea{
+    width: 28em;
+    height: 8em;
+    resize: none;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+
+button{
+    width: 8em;
+    height: 2.2em;
+    font-size: 1.5em;
+    border: 0.12em solid black;
+    border-radius: 0.4em;
+    cursor: pointer;
+}
+
+.btn-enviar{
+    background-color: green;
+}
+
+.btn-cancelar{
+    background-color: red;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+
+    border: 0.12em solid black;
+    background-color: grey;
+    text-align: center;
+    padding: 1em;
+    z-index: 1000;
+}

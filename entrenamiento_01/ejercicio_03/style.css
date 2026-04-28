@@ -1,0 +1,52 @@
+html {
+    width: 80%;
+    font-family: Arial;
+     margin: 0 auto;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    border: 0.10em solid black;
+    text-align: center;
+    padding: 0.10em;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: lightgray;
+    width: 80%;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    background-color: #dcdcdc;
+    justify-content: center;
+    padding-top: 5em;      
+    flex-direction: column;
+}
+
+main{
+   padding: 5em 0 5em 0;
+   font-size: 1.3em;
+}
+
+
+.recetas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contenedor-recetas {
+    margin: 0;
+    padding: 0.5em 2em;
+    border: 0.2em solid black;
+    background-color: #87a0de;
+    margin-bottom: 3em;
+}
+
+.recetas[id] {
+    scroll-margin-top: 5em;
+}
